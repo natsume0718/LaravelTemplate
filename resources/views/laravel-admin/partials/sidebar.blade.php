@@ -6,7 +6,6 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
             <div class="pull-left image">
-                {{Admin::user()->plainAvatar}}
                 @if(Admin::user()->avatar)
                 <img src="{{ Admin::user()->avatar }}" class="img-circle" alt="User Image">
                 @endif
