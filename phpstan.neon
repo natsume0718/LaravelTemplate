@@ -11,8 +11,10 @@ parameters:
 
     ignoreErrors:
         - '#Unsafe usage of new static#'
+        - '#Access to an undefined property#'
 
     excludes_analyse:
         - ./*/*/FileToBeExcluded.php
+        - app/Admin/routes.php
 
     checkMissingIterableValueType: false
