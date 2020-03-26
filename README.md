@@ -38,3 +38,13 @@ Laravel 6.x LTS のデバッグやコード解析を導入した Sandbox
 -   php unit : 単体テストを行う
 
 -   debugbar : 画面にデバッグ用の表示を行う
+
+## Frontend Develop
+
+-   `frontend`ブランチをマージします。
+
+-   `npm install`
+
+-   `Purgecss`で未使用 css を削除します
+
+-   `Polyfill`で対象の browser のサポートを行います
