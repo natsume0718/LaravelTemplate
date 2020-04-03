@@ -29,9 +29,13 @@ Laravel 6.x LTS のデバッグやコード解析を導入した Sandbox
 
 -   `php artisan generate:model-factory --dir app/Models -- モデル名` factory を自動生成します。
 
+-   `php artisan insights` で PHP Insights を用いたコード品質を分析する
+
 ## Installed Package
 
 -   IDE Helper : Laravel で IDE 補完機能を有効にする
+
+-   PHP Insights : コード品質を分析する
 
 -   larastan : Laravel で静的解析を行う
 
