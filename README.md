@@ -46,3 +46,5 @@ Laravel 6.x LTS のデバッグやコード解析を導入した Sandbox
 -   debugbar : 画面にデバッグ用の表示を行う
 
 -   laravel-test-factory-helper : モデルから簡単にファクトリーを作成する
+
+-   laravel-query-detector : N + 1 問題の報告を画面に表示する
